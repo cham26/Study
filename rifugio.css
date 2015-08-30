@@ -1,9 +1,24 @@
 @import url(//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css);
 
+
+h1 {
+    text-align: center;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-style: italic;
+    color: #00CED1;
+}
+.imageLabel {
+    position: absolute;
+    width: 100px; 
+    height: 100px; 
+    top: 50%;
+    margin-left: -50px; 
+    margin-top: -50px; 
+}
 .detailBox {
     width: 420px;
     border: 1px solid #bbb;
-    margin: 0px;    
+    margin: 0px;   
 }
 .titleBox {
     background-color: #fdfdfd;
